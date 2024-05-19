@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Chai aur Code</title>
+</head>
+<body style="background-color: #212121; color: #fff;">
+
+</body>
+<script>
+    const temp = document.createElement('h1')
+    console.log(temp);
+    temp.className = 'main'
+    temp.id = Math.round(Math.random()*10 + 1)
+    temp.setAttribute("title", "generated Title")
+    temp.style.backgroundColor = 'green'
+    temp.style.color = 'white'
+    temp.style.padding = '12px'
+    temp.style.borderRadius = '15px'
+    // temp.innerText = 'Welcome, lord Abhishek'
+    const textEle = document.createTextNode('Welcome, lord Abhishek')
+    temp.appendChild(textEle)
+
+    document.body.appendChild(temp)
+
+</script>
+</html>
