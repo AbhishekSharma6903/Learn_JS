@@ -1,0 +1,3 @@
+class = .
+id = #
+converting to array : Array.from(<element_Name>) 
