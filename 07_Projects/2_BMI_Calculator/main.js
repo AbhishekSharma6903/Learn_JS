@@ -7,6 +7,7 @@ form.addEventListener('submit', function(e){
   const weight = parseInt(document.querySelector('#weight').value)
   const result = document.querySelector('#results')
 
+  
   if(height === '' || height <0 || isNaN(height)){
     result.innerHTML = `Please give a valid height not ${height}`
   }
